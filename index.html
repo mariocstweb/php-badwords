@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BootStrap -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <title>BadWords</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container p-5">
+      <form action="script.php" method="GET" class="d-flex flex-column">
+        <textarea name="paragraph" cols="30" rows="10"></textarea>
+        <input type="text" name="word" />
+        <button>Invia</button>
+      </form>
+    </div>
+  </body>
 </html>
